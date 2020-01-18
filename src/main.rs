@@ -8,11 +8,6 @@ lazy_static! {
 }
 
 fn build_channel() -> Arc<ChannelHolder> {
-    //  let (sender, receiver) = unbounded();
-    //  let channel_holder = ChannelHolder {
-    //     sender,
-    //     receiver,
-    // };
     Arc::new(ChannelHolder::new())
 }
 
