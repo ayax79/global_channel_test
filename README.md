@@ -1,0 +1,1 @@
+Trying to find a way to solve a problem I was having at work where I needed to register a callback to a C function and send data to a channel
